@@ -96,7 +96,7 @@ img {
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Two columns */
-    grid-template-rows: repeat(2, 600px); /* Two rows with fixed height */
+    grid-template-rows: repeat(2, 700px); /* Two rows with fixed height */
     
     
 }
@@ -110,7 +110,7 @@ img {
 
 .box img {
     width: 700px; 
-    height: 600px; 
+    height: 700px; 
     max-width: 100%; /* Prevent overflow */
     margin: 0; /* Center the image if necessary */
     
@@ -161,4 +161,24 @@ img {
     text-align: center; /* Center text */
     font-size: 20px;
     margin-top: 10px; /* Add space above the items */
+}
+.box6{
+    background-color: #002147;
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100%; /* Make sure it takes full height of the box */
+    font-size: 30px;
+}
+.exp{
+    padding-bottom: 20px; 
+    color: #FFFF00;
+    text-align: center; 
+    font-size: 60px;
+    font-weight: 50px;
+}
+.expitem{
+    color: aliceblue;
+    text-align: center;
 }
