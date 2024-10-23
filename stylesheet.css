@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    color: var(--nav-dropdown-color);
+    padding: 10px 20px;
+    font-family: var(--nav-font);
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    transition: 0.3s;
+    background-color: black;
+    height: 90px;
+    width: 100%;
+}
+
+button {
+    border-radius: 6px;
+    border-color: rgb(48, 37, 209);
+    height: 30px;
+    width: 300px;
+    color: aliceblue;
+    background-color: black;
+    margin: 0;
+
+}
+
+
+    button:hover {
+        
+        background: rgb(83, 50, 255);
+        background: linear-gradient(135deg,rgba(83,50,255,1) 11%, rgba(242,0,255,1)100%);
+        -webkit-text-fill-color: transparent;
+    background-clip: text;
+        color: aliceblue;
+        font-size: 25px;
+    }
+
+
+.hero {
+    background-color: #060606;
+    height: 700px;
+    width: 100%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.div {
+    font-style: italic;
+    color:black;
+}
+
+img {
+    margin-left: 20px;
+    padding: 0;
+    opacity: 0.5;
+    height: 700px;
+    max-width: 100%;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 75%; 
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.prateeksha {
+    background: rgb(83, 50, 255);
+    background: linear-gradient(135deg,rgba(83,50,255,1) 11%, rgba(242,0,255,1)100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#zero {
+    background-color: #060606;
+    margin-top: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-template-rows: repeat(2, 600px); /* Two rows with fixed height */
+    
+    
+}
+
+
+
+.box1 {
+    background-color: black; /* Different color for box1 */
+
+}
+
+.box img {
+    width: 700px; 
+    height: 600px; 
+    max-width: 100%; /* Prevent overflow */
+    margin: 0; /* Center the image if necessary */
+    
+}
+
+.box4 {
+    background-color: black;
+}
+.box2 {
+    background-color: #002147;
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100%; /* Make sure it takes full height of the box */
+    font-size: 30px;
+}
+
+.heading {
+    padding-bottom: 20px; 
+    color: #FFFF00;
+    text-align: center; 
+}
+
+.items{
+    color: aliceblue;
+    text-align: center;
+}
+.box3 {
+    background-color: #002147;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    padding: 20px; /* Add some padding around */
+    height: 100%; /* Ensure it takes the full height of the parent */
+}
+
+.educ {
+    color: #FFFF00;
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Add gap below the heading */
+    font-size: 30px;
+}
+
+.it {
+    color: aliceblue;
+    text-align: center; /* Center text */
+    font-size: 20px;
+    margin-top: 10px; /* Add space above the items */
+}
